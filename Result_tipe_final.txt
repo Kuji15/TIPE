@@ -1,0 +1,630 @@
+[DIAGNOSTIC] Voici la première ligne brute lue par OCaml :
+Col 0 : "Horaires"
+Col 1 : "Nom"
+Col 2 : "Matière"
+Col 3 : ""
+Nombre total de colonnes détectées : 4
+
+
+=== DEBUG DATA ===
+Nombre de semaines : 1
+Nombre de groupes : 16
+Nombre de créneaux total (nb_slots) : 17
+Nombre de colleurs total : 18
+Maths: 10, Phy: 4, Ang: 4
+
+--- Détail des disponibilités ---
+M.Lellouche : 2 créneaux
+M.Dunand : 1 créneaux
+M.Vitetta : 2 créneaux
+M.Levifve : 2 créneaux
+M.Avigdor : 2 créneaux
+M.Reynier : 1 créneaux
+M.Bernanose : 1 créneaux
+M.Boulmezaoud : 2 créneaux
+M.Duhalde : 1 créneaux
+M.Perrin : 2 créneaux
+M.Metzdorff : 2 créneaux
+M.Gruat : 3 créneaux
+M.Bedes : 2 créneaux
+M.Sautel : 1 créneaux
+Mme.Boglio : 2 créneaux
+Mme.Bendrif : 2 créneaux
+Mme.Foliard-Pioche : 1 créneaux
+Mme.Mulheim : 3 créneaux
+==================
+--- GÉNÉRATION AVEC PARITÉ (16 SEMAINES) ---
+Règle : Grp 0-7 (Sem1=Ang, Sem2=Phy) | Grp 8-15 (Sem1=Phy, Sem2=Ang)
+
+Semaine 1... 
+=== SEMAINE 1 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Lun_17h20  | M.Vitetta       | Maths
+  0 | Lun_12h10  | Mme.Boglio      | Angl
+  1 | Lun_18h20  | M.Vitetta       | Maths
+  1 | Mar_17h10  | Mme.Mulheim     | Angl
+  2 | Lun_9h00   | M.Lellouche     | Maths
+  2 | Mar_13h10  | Mme.Bendrif     | Angl
+  3 | Lun_11h10  | M.Dunand        | Maths
+  3 | Mar_15h10  | Mme.Mulheim     | Angl
+  4 | Mar_15h10  | M.Avigdor       | Maths
+  4 | Mar_16h10  | Mme.Mulheim     | Angl
+  5 | Mer_12h10  | M.Bernanose     | Maths
+  5 | Mar_13h10  | Mme.Boglio      | Angl
+  6 | Mer_12h10  | M.Boulmezaoud   | Maths
+  6 | Mar_15h20  | Mme.Bendrif     | Angl
+  7 | Lun_17h20  | M.Levifve       | Maths
+  7 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+  8 | Jeu_17h20  | M.Gruat         | Phys
+  8 | Jeu_18h20  | M.Perrin        | Maths
+  9 | Mar_16h20  | M.Lellouche     | Maths
+  9 | Jeu_18h20  | M.Bedes         | Phys
+ 10 | Mer_12h10  | M.Gruat         | Phys
+ 10 | Jeu_17h20  | M.Perrin        | Maths
+ 11 | Mar_16h10  | M.Reynier       | Maths
+ 11 | Jeu_17h20  | M.Bedes         | Phys
+ 12 | Mer_13h10  | M.Gruat         | Phys
+ 12 | Jeu_13h10  | M.Boulmezaoud   | Maths
+ 13 | Mar_16h10  | M.Avigdor       | Maths
+ 13 | Mar_18h00  | M.Metzdorff     | Phys
+ 14 | Lun_18h20  | M.Levifve       | Maths
+ 14 | Mer_12h10  | M.Metzdorff     | Phys
+ 15 | Mer_13h10  | M.Duhalde       | Maths
+ 15 | Jeu_18h20  | M.Sautel        | Phys
+OK.
+Semaine 2... 
+=== SEMAINE 2 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Lun_9h00   | M.Lellouche     | Maths
+  0 | Jeu_18h20  | M.Sautel        | Phys
+  1 | Lun_18h20  | M.Levifve       | Maths
+  1 | Jeu_18h20  | M.Bedes         | Phys
+  2 | Mar_16h10  | M.Avigdor       | Maths
+  2 | Jeu_17h20  | M.Bedes         | Phys
+  3 | Mar_16h10  | M.Reynier       | Maths
+  3 | Mer_12h10  | M.Metzdorff     | Phys
+  4 | Mer_12h10  | M.Gruat         | Phys
+  4 | Jeu_13h10  | M.Boulmezaoud   | Maths
+  5 | Lun_17h20  | M.Vitetta       | Maths
+  5 | Mer_13h10  | M.Gruat         | Phys
+  6 | Lun_18h20  | M.Vitetta       | Maths
+  6 | Jeu_17h20  | M.Gruat         | Phys
+  7 | Mer_12h10  | M.Boulmezaoud   | Maths
+  7 | Mar_18h00  | M.Metzdorff     | Phys
+  8 | Mar_15h10  | M.Avigdor       | Maths
+  8 | Mar_13h10  | Mme.Bendrif     | Angl
+  9 | Lun_11h10  | M.Dunand        | Maths
+  9 | Mar_15h10  | Mme.Mulheim     | Angl
+ 10 | Lun_17h20  | M.Levifve       | Maths
+ 10 | Mar_16h10  | Mme.Mulheim     | Angl
+ 11 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+ 11 | Mer_13h10  | M.Duhalde       | Maths
+ 12 | Jeu_17h20  | M.Perrin        | Maths
+ 12 | Mar_13h10  | Mme.Boglio      | Angl
+ 13 | Mar_16h20  | M.Lellouche     | Maths
+ 13 | Lun_12h10  | Mme.Boglio      | Angl
+ 14 | Jeu_18h20  | M.Perrin        | Maths
+ 14 | Mar_17h10  | Mme.Mulheim     | Angl
+ 15 | Mer_12h10  | M.Bernanose     | Maths
+ 15 | Mar_15h20  | Mme.Bendrif     | Angl
+OK.
+Semaine 3... 
+=== SEMAINE 3 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Mer_12h10  | M.Bernanose     | Maths
+  0 | Mar_13h10  | Mme.Boglio      | Angl
+  1 | Mar_16h10  | M.Reynier       | Maths
+  1 | Mar_15h20  | Mme.Bendrif     | Angl
+  2 | Lun_17h20  | M.Vitetta       | Maths
+  2 | Mar_15h10  | Mme.Mulheim     | Angl
+  3 | Lun_18h20  | M.Vitetta       | Maths
+  3 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+  4 | Lun_17h20  | M.Levifve       | Maths
+  4 | Mar_16h10  | Mme.Mulheim     | Angl
+  5 | Lun_9h00   | M.Lellouche     | Maths
+  5 | Mar_17h10  | Mme.Mulheim     | Angl
+  6 | Jeu_18h20  | M.Perrin        | Maths
+  6 | Mar_13h10  | Mme.Bendrif     | Angl
+  7 | Mer_13h10  | M.Duhalde       | Maths
+  7 | Lun_12h10  | Mme.Boglio      | Angl
+  8 | Mar_16h20  | M.Lellouche     | Maths
+  8 | Jeu_18h20  | M.Bedes         | Phys
+  9 | Lun_18h20  | M.Levifve       | Maths
+  9 | Jeu_17h20  | M.Bedes         | Phys
+ 10 | Mer_12h10  | M.Boulmezaoud   | Maths
+ 10 | Mer_13h10  | M.Gruat         | Phys
+ 11 | Mer_12h10  | M.Metzdorff     | Phys
+ 11 | Jeu_17h20  | M.Perrin        | Maths
+ 12 | Jeu_13h10  | M.Boulmezaoud   | Maths
+ 12 | Jeu_17h20  | M.Gruat         | Phys
+ 13 | Lun_11h10  | M.Dunand        | Maths
+ 13 | Mar_18h00  | M.Metzdorff     | Phys
+ 14 | Mar_16h10  | M.Avigdor       | Maths
+ 14 | Jeu_18h20  | M.Sautel        | Phys
+ 15 | Mar_15h10  | M.Avigdor       | Maths
+ 15 | Mer_12h10  | M.Gruat         | Phys
+OK.
+Semaine 4... 
+=== SEMAINE 4 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Lun_9h00   | M.Lellouche     | Maths
+  0 | Mer_13h10  | M.Gruat         | Phys
+  1 | Mer_12h10  | M.Bernanose     | Maths
+  1 | Jeu_17h20  | M.Gruat         | Phys
+  2 | Mer_12h10  | M.Metzdorff     | Phys
+  2 | Jeu_17h20  | M.Perrin        | Maths
+  3 | Mer_12h10  | M.Boulmezaoud   | Maths
+  3 | Jeu_18h20  | M.Sautel        | Phys
+  4 | Mar_16h20  | M.Lellouche     | Maths
+  4 | Mar_18h00  | M.Metzdorff     | Phys
+  5 | Lun_11h10  | M.Dunand        | Maths
+  5 | Jeu_18h20  | M.Bedes         | Phys
+  6 | Mar_16h10  | M.Reynier       | Maths
+  6 | Jeu_17h20  | M.Bedes         | Phys
+  7 | Lun_18h20  | M.Vitetta       | Maths
+  7 | Mer_12h10  | M.Gruat         | Phys
+  8 | Lun_18h20  | M.Levifve       | Maths
+  8 | Mar_17h10  | Mme.Mulheim     | Angl
+  9 | Lun_17h20  | M.Vitetta       | Maths
+  9 | Mar_15h10  | Mme.Mulheim     | Angl
+ 10 | Lun_17h20  | M.Levifve       | Maths
+ 10 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+ 11 | Mar_16h10  | M.Avigdor       | Maths
+ 11 | Lun_12h10  | Mme.Boglio      | Angl
+ 12 | Mar_15h10  | M.Avigdor       | Maths
+ 12 | Mar_16h10  | Mme.Mulheim     | Angl
+ 13 | Jeu_13h10  | M.Boulmezaoud   | Maths
+ 13 | Mar_15h20  | Mme.Bendrif     | Angl
+ 14 | Mer_13h10  | M.Duhalde       | Maths
+ 14 | Mar_13h10  | Mme.Bendrif     | Angl
+ 15 | Jeu_18h20  | M.Perrin        | Maths
+ 15 | Mar_13h10  | Mme.Boglio      | Angl
+OK.
+Semaine 5... 
+=== SEMAINE 5 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Mer_13h10  | M.Duhalde       | Maths
+  0 | Mar_13h10  | Mme.Bendrif     | Angl
+  1 | Jeu_18h20  | M.Perrin        | Maths
+  1 | Mar_17h10  | Mme.Mulheim     | Angl
+  2 | Mar_16h10  | Mme.Mulheim     | Angl
+  2 | Mar_16h20  | M.Lellouche     | Maths
+  3 | Lun_17h20  | M.Vitetta       | Maths
+  3 | Mar_13h10  | Mme.Boglio      | Angl
+  4 | Lun_11h10  | M.Dunand        | Maths
+  4 | Mar_15h10  | Mme.Mulheim     | Angl
+  5 | Lun_9h00   | M.Lellouche     | Maths
+  5 | Lun_12h10  | Mme.Boglio      | Angl
+  6 | Lun_18h20  | M.Vitetta       | Maths
+  6 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+  7 | Mar_15h10  | M.Avigdor       | Maths
+  7 | Mar_15h20  | Mme.Bendrif     | Angl
+  8 | Mar_16h10  | M.Avigdor       | Maths
+  8 | Mar_18h00  | M.Metzdorff     | Phys
+  9 | Mer_12h10  | M.Gruat         | Phys
+  9 | Jeu_13h10  | M.Boulmezaoud   | Maths
+ 10 | Mer_12h10  | M.Bernanose     | Maths
+ 10 | Jeu_17h20  | M.Gruat         | Phys
+ 11 | Mer_13h10  | M.Gruat         | Phys
+ 11 | Jeu_17h20  | M.Perrin        | Maths
+ 12 | Mar_16h10  | M.Reynier       | Maths
+ 12 | Jeu_18h20  | M.Bedes         | Phys
+ 13 | Lun_18h20  | M.Levifve       | Maths
+ 13 | Mer_12h10  | M.Metzdorff     | Phys
+ 14 | Mer_12h10  | M.Boulmezaoud   | Maths
+ 14 | Jeu_18h20  | M.Sautel        | Phys
+ 15 | Lun_17h20  | M.Levifve       | Maths
+ 15 | Jeu_17h20  | M.Bedes         | Phys
+OK.
+Semaine 6... 
+=== SEMAINE 6 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Mar_16h20  | M.Lellouche     | Maths
+  0 | Jeu_18h20  | M.Bedes         | Phys
+  1 | Lun_17h20  | M.Levifve       | Maths
+  1 | Jeu_18h20  | M.Sautel        | Phys
+  2 | Lun_18h20  | M.Vitetta       | Maths
+  2 | Mer_13h10  | M.Gruat         | Phys
+  3 | Mar_16h10  | M.Avigdor       | Maths
+  3 | Jeu_17h20  | M.Bedes         | Phys
+  4 | Lun_9h00   | M.Lellouche     | Maths
+  4 | Mer_12h10  | M.Gruat         | Phys
+  5 | Mer_13h10  | M.Duhalde       | Maths
+  5 | Mar_18h00  | M.Metzdorff     | Phys
+  6 | Jeu_17h20  | M.Gruat         | Phys
+  6 | Jeu_18h20  | M.Perrin        | Maths
+  7 | Mer_12h10  | M.Metzdorff     | Phys
+  7 | Jeu_13h10  | M.Boulmezaoud   | Maths
+  8 | Jeu_17h20  | M.Perrin        | Maths
+  8 | Mar_17h10  | Mme.Mulheim     | Angl
+  9 | Mar_16h10  | M.Reynier       | Maths
+  9 | Lun_12h10  | Mme.Boglio      | Angl
+ 10 | Mar_15h10  | M.Avigdor       | Maths
+ 10 | Mar_13h10  | Mme.Boglio      | Angl
+ 11 | Lun_18h20  | M.Levifve       | Maths
+ 11 | Mar_15h10  | Mme.Mulheim     | Angl
+ 12 | Lun_11h10  | M.Dunand        | Maths
+ 12 | Mar_16h10  | Mme.Mulheim     | Angl
+ 13 | Lun_17h20  | M.Vitetta       | Maths
+ 13 | Mar_15h20  | Mme.Bendrif     | Angl
+ 14 | Mer_12h10  | M.Bernanose     | Maths
+ 14 | Mar_13h10  | Mme.Bendrif     | Angl
+ 15 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+ 15 | Mer_12h10  | M.Boulmezaoud   | Maths
+OK.
+Semaine 7... 
+=== SEMAINE 7 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Mer_12h10  | M.Bernanose     | Maths
+  0 | Mar_15h20  | Mme.Bendrif     | Angl
+  1 | Mer_13h10  | M.Duhalde       | Maths
+  1 | Mar_13h10  | Mme.Bendrif     | Angl
+  2 | Lun_11h10  | M.Dunand        | Maths
+  2 | Lun_12h10  | Mme.Boglio      | Angl
+  3 | Lun_17h20  | M.Vitetta       | Maths
+  3 | Mar_16h10  | Mme.Mulheim     | Angl
+  4 | Jeu_17h20  | M.Perrin        | Maths
+  4 | Mar_13h10  | Mme.Boglio      | Angl
+  5 | Mar_15h10  | Mme.Mulheim     | Angl
+  5 | Mar_16h20  | M.Lellouche     | Maths
+  6 | Mer_12h10  | M.Boulmezaoud   | Maths
+  6 | Mar_17h10  | Mme.Mulheim     | Angl
+  7 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+  7 | Jeu_18h20  | M.Perrin        | Maths
+  8 | Lun_17h20  | M.Levifve       | Maths
+  8 | Mar_18h00  | M.Metzdorff     | Phys
+  9 | Lun_18h20  | M.Levifve       | Maths
+  9 | Jeu_18h20  | M.Sautel        | Phys
+ 10 | Lun_18h20  | M.Vitetta       | Maths
+ 10 | Mer_13h10  | M.Gruat         | Phys
+ 11 | Mer_12h10  | M.Gruat         | Phys
+ 11 | Jeu_13h10  | M.Boulmezaoud   | Maths
+ 12 | Mar_15h10  | M.Avigdor       | Maths
+ 12 | Jeu_17h20  | M.Bedes         | Phys
+ 13 | Mar_16h10  | M.Reynier       | Maths
+ 13 | Jeu_18h20  | M.Bedes         | Phys
+ 14 | Mar_16h10  | M.Avigdor       | Maths
+ 14 | Mer_12h10  | M.Metzdorff     | Phys
+ 15 | Lun_9h00   | M.Lellouche     | Maths
+ 15 | Jeu_17h20  | M.Gruat         | Phys
+OK.
+Semaine 8... 
+=== SEMAINE 8 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Mer_12h10  | M.Boulmezaoud   | Maths
+  0 | Jeu_18h20  | M.Sautel        | Phys
+  1 | Lun_9h00   | M.Lellouche     | Maths
+  1 | Mer_12h10  | M.Gruat         | Phys
+  2 | Jeu_13h10  | M.Boulmezaoud   | Maths
+  2 | Jeu_18h20  | M.Bedes         | Phys
+  3 | Lun_11h10  | M.Dunand        | Maths
+  3 | Jeu_17h20  | M.Bedes         | Phys
+  4 | Lun_18h20  | M.Vitetta       | Maths
+  4 | Mer_13h10  | M.Gruat         | Phys
+  5 | Lun_18h20  | M.Levifve       | Maths
+  5 | Mer_12h10  | M.Metzdorff     | Phys
+  6 | Lun_17h20  | M.Levifve       | Maths
+  6 | Jeu_17h20  | M.Gruat         | Phys
+  7 | Mer_12h10  | M.Bernanose     | Maths
+  7 | Mar_18h00  | M.Metzdorff     | Phys
+  8 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+  8 | Mar_16h20  | M.Lellouche     | Maths
+  9 | Lun_17h20  | M.Vitetta       | Maths
+  9 | Mar_13h10  | Mme.Boglio      | Angl
+ 10 | Mar_16h10  | M.Reynier       | Maths
+ 10 | Mar_15h20  | Mme.Bendrif     | Angl
+ 11 | Mar_16h10  | M.Avigdor       | Maths
+ 11 | Mar_13h10  | Mme.Bendrif     | Angl
+ 12 | Mar_15h10  | Mme.Mulheim     | Angl
+ 12 | Jeu_17h20  | M.Perrin        | Maths
+ 13 | Mar_15h10  | M.Avigdor       | Maths
+ 13 | Lun_12h10  | Mme.Boglio      | Angl
+ 14 | Jeu_18h20  | M.Perrin        | Maths
+ 14 | Mar_17h10  | Mme.Mulheim     | Angl
+ 15 | Mar_16h10  | Mme.Mulheim     | Angl
+ 15 | Mer_13h10  | M.Duhalde       | Maths
+OK.
+Semaine 9... 
+=== SEMAINE 9 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Jeu_18h20  | M.Perrin        | Maths
+  0 | Lun_12h10  | Mme.Boglio      | Angl
+  1 | Mar_15h10  | Mme.Mulheim     | Angl
+  1 | Mar_16h10  | M.Avigdor       | Maths
+  2 | Lun_18h20  | M.Vitetta       | Maths
+  2 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+  3 | Lun_18h20  | M.Levifve       | Maths
+  3 | Mar_13h10  | Mme.Boglio      | Angl
+  4 | Jeu_17h20  | M.Perrin        | Maths
+  4 | Mar_13h10  | Mme.Bendrif     | Angl
+  5 | Mar_16h10  | Mme.Mulheim     | Angl
+  5 | Mer_12h10  | M.Boulmezaoud   | Maths
+  6 | Jeu_13h10  | M.Boulmezaoud   | Maths
+  6 | Mar_17h10  | Mme.Mulheim     | Angl
+  7 | Mar_15h10  | M.Avigdor       | Maths
+  7 | Mar_15h20  | Mme.Bendrif     | Angl
+  8 | Lun_17h20  | M.Vitetta       | Maths
+  8 | Jeu_18h20  | M.Bedes         | Phys
+  9 | Mer_13h10  | M.Duhalde       | Maths
+  9 | Jeu_17h20  | M.Gruat         | Phys
+ 10 | Lun_11h10  | M.Dunand        | Maths
+ 10 | Mar_18h00  | M.Metzdorff     | Phys
+ 11 | Lun_17h20  | M.Levifve       | Maths
+ 11 | Mer_13h10  | M.Gruat         | Phys
+ 12 | Lun_9h00   | M.Lellouche     | Maths
+ 12 | Mer_12h10  | M.Metzdorff     | Phys
+ 13 | Mer_12h10  | M.Bernanose     | Maths
+ 13 | Jeu_17h20  | M.Bedes         | Phys
+ 14 | Mar_16h20  | M.Lellouche     | Maths
+ 14 | Jeu_18h20  | M.Sautel        | Phys
+ 15 | Mar_16h10  | M.Reynier       | Maths
+ 15 | Mer_12h10  | M.Gruat         | Phys
+OK.
+Semaine 10... 
+=== SEMAINE 10 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Mer_12h10  | M.Gruat         | Phys
+  0 | Jeu_13h10  | M.Boulmezaoud   | Maths
+  1 | Lun_17h20  | M.Vitetta       | Maths
+  1 | Mar_18h00  | M.Metzdorff     | Phys
+  2 | Mar_15h10  | M.Avigdor       | Maths
+  2 | Jeu_17h20  | M.Bedes         | Phys
+  3 | Mer_12h10  | M.Boulmezaoud   | Maths
+  3 | Jeu_18h20  | M.Sautel        | Phys
+  4 | Mer_13h10  | M.Duhalde       | Maths
+  4 | Jeu_17h20  | M.Gruat         | Phys
+  5 | Mar_16h10  | M.Avigdor       | Maths
+  5 | Mer_12h10  | M.Metzdorff     | Phys
+  6 | Mar_16h20  | M.Lellouche     | Maths
+  6 | Jeu_18h20  | M.Bedes         | Phys
+  7 | Lun_9h00   | M.Lellouche     | Maths
+  7 | Mer_13h10  | M.Gruat         | Phys
+  8 | Mar_16h10  | Mme.Mulheim     | Angl
+  8 | Jeu_18h20  | M.Perrin        | Maths
+  9 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+  9 | Mar_16h10  | M.Reynier       | Maths
+ 10 | Lun_18h20  | M.Vitetta       | Maths
+ 10 | Mar_15h20  | Mme.Bendrif     | Angl
+ 11 | Lun_11h10  | M.Dunand        | Maths
+ 11 | Lun_12h10  | Mme.Boglio      | Angl
+ 12 | Lun_18h20  | M.Levifve       | Maths
+ 12 | Mar_13h10  | Mme.Boglio      | Angl
+ 13 | Mar_15h10  | Mme.Mulheim     | Angl
+ 13 | Jeu_17h20  | M.Perrin        | Maths
+ 14 | Mer_12h10  | M.Bernanose     | Maths
+ 14 | Mar_13h10  | Mme.Bendrif     | Angl
+ 15 | Lun_17h20  | M.Levifve       | Maths
+ 15 | Mar_17h10  | Mme.Mulheim     | Angl
+OK.
+Semaine 11... 
+=== SEMAINE 11 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Lun_17h20  | M.Vitetta       | Maths
+  0 | Mar_13h10  | Mme.Bendrif     | Angl
+  1 | Lun_11h10  | M.Dunand        | Maths
+  1 | Mar_15h20  | Mme.Bendrif     | Angl
+  2 | Lun_17h20  | M.Levifve       | Maths
+  2 | Lun_12h10  | Mme.Boglio      | Angl
+  3 | Lun_18h20  | M.Levifve       | Maths
+  3 | Mar_15h10  | Mme.Mulheim     | Angl
+  4 | Mer_12h10  | M.Bernanose     | Maths
+  4 | Mar_17h10  | Mme.Mulheim     | Angl
+  5 | Mar_16h10  | Mme.Mulheim     | Angl
+  5 | Jeu_18h20  | M.Perrin        | Maths
+  6 | Jeu_13h10  | M.Boulmezaoud   | Maths
+  6 | Mar_13h10  | Mme.Boglio      | Angl
+  7 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+  7 | Mar_16h10  | M.Avigdor       | Maths
+  8 | Lun_9h00   | M.Lellouche     | Maths
+  8 | Mar_18h00  | M.Metzdorff     | Phys
+  9 | Mer_12h10  | M.Boulmezaoud   | Maths
+  9 | Jeu_18h20  | M.Bedes         | Phys
+ 10 | Mer_12h10  | M.Metzdorff     | Phys
+ 10 | Jeu_17h20  | M.Perrin        | Maths
+ 11 | Mar_16h10  | M.Reynier       | Maths
+ 11 | Mer_12h10  | M.Gruat         | Phys
+ 12 | Mar_15h10  | M.Avigdor       | Maths
+ 12 | Jeu_18h20  | M.Sautel        | Phys
+ 13 | Lun_18h20  | M.Vitetta       | Maths
+ 13 | Jeu_17h20  | M.Gruat         | Phys
+ 14 | Mar_16h20  | M.Lellouche     | Maths
+ 14 | Mer_13h10  | M.Gruat         | Phys
+ 15 | Mer_13h10  | M.Duhalde       | Maths
+ 15 | Jeu_17h20  | M.Bedes         | Phys
+OK.
+Semaine 12... 
+=== SEMAINE 12 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Mar_16h10  | M.Avigdor       | Maths
+  0 | Mer_12h10  | M.Metzdorff     | Phys
+  1 | Mer_12h10  | M.Boulmezaoud   | Maths
+  1 | Jeu_17h20  | M.Gruat         | Phys
+  2 | Mer_13h10  | M.Gruat         | Phys
+  2 | Jeu_13h10  | M.Boulmezaoud   | Maths
+  3 | Mar_15h10  | M.Avigdor       | Maths
+  3 | Jeu_18h20  | M.Bedes         | Phys
+  4 | Lun_18h20  | M.Vitetta       | Maths
+  4 | Jeu_17h20  | M.Bedes         | Phys
+  5 | Mar_16h20  | M.Lellouche     | Maths
+  5 | Jeu_18h20  | M.Sautel        | Phys
+  6 | Mer_12h10  | M.Bernanose     | Maths
+  6 | Mar_18h00  | M.Metzdorff     | Phys
+  7 | Mar_16h10  | M.Reynier       | Maths
+  7 | Mer_12h10  | M.Gruat         | Phys
+  8 | Jeu_18h20  | M.Perrin        | Maths
+  8 | Mar_15h20  | Mme.Bendrif     | Angl
+  9 | Lun_17h20  | M.Levifve       | Maths
+  9 | Mar_16h10  | Mme.Mulheim     | Angl
+ 10 | Mer_13h10  | M.Duhalde       | Maths
+ 10 | Lun_12h10  | Mme.Boglio      | Angl
+ 11 | Lun_17h20  | M.Vitetta       | Maths
+ 11 | Mar_13h10  | Mme.Bendrif     | Angl
+ 12 | Jeu_17h20  | M.Perrin        | Maths
+ 12 | Mar_13h10  | Mme.Boglio      | Angl
+ 13 | Lun_9h00   | M.Lellouche     | Maths
+ 13 | Mar_15h10  | Mme.Mulheim     | Angl
+ 14 | Lun_11h10  | M.Dunand        | Maths
+ 14 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+ 15 | Lun_18h20  | M.Levifve       | Maths
+ 15 | Mar_17h10  | Mme.Mulheim     | Angl
+OK.
+Semaine 13... 
+=== SEMAINE 13 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Mar_16h10  | Mme.Mulheim     | Angl
+  0 | Jeu_13h10  | M.Boulmezaoud   | Maths
+  1 | Mar_16h10  | M.Avigdor       | Maths
+  1 | Mar_13h10  | Mme.Boglio      | Angl
+  2 | Lun_17h20  | M.Levifve       | Maths
+  2 | Mar_17h10  | Mme.Mulheim     | Angl
+  3 | Mar_15h10  | Mme.Mulheim     | Angl
+  3 | Mer_13h10  | M.Duhalde       | Maths
+  4 | Lun_9h00   | M.Lellouche     | Maths
+  4 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+  5 | Mer_12h10  | M.Bernanose     | Maths
+  5 | Mar_15h20  | Mme.Bendrif     | Angl
+  6 | Lun_18h20  | M.Levifve       | Maths
+  6 | Lun_12h10  | Mme.Boglio      | Angl
+  7 | Jeu_18h20  | M.Perrin        | Maths
+  7 | Mar_13h10  | Mme.Bendrif     | Angl
+  8 | Mar_16h20  | M.Lellouche     | Maths
+  8 | Jeu_17h20  | M.Bedes         | Phys
+  9 | Lun_17h20  | M.Vitetta       | Maths
+  9 | Jeu_17h20  | M.Gruat         | Phys
+ 10 | Lun_18h20  | M.Vitetta       | Maths
+ 10 | Jeu_18h20  | M.Sautel        | Phys
+ 11 | Mer_12h10  | M.Metzdorff     | Phys
+ 11 | Jeu_17h20  | M.Perrin        | Maths
+ 12 | Mer_12h10  | M.Boulmezaoud   | Maths
+ 12 | Mar_18h00  | M.Metzdorff     | Phys
+ 13 | Mar_15h10  | M.Avigdor       | Maths
+ 13 | Mer_13h10  | M.Gruat         | Phys
+ 14 | Mar_16h10  | M.Reynier       | Maths
+ 14 | Mer_12h10  | M.Gruat         | Phys
+ 15 | Lun_11h10  | M.Dunand        | Maths
+ 15 | Jeu_18h20  | M.Bedes         | Phys
+OK.
+Semaine 14... 
+=== SEMAINE 14 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Mar_16h10  | M.Avigdor       | Maths
+  0 | Mer_12h10  | M.Metzdorff     | Phys
+  1 | Lun_17h20  | M.Levifve       | Maths
+  1 | Mar_18h00  | M.Metzdorff     | Phys
+  2 | Jeu_17h20  | M.Perrin        | Maths
+  2 | Jeu_18h20  | M.Sautel        | Phys
+  3 | Lun_17h20  | M.Vitetta       | Maths
+  3 | Mer_13h10  | M.Gruat         | Phys
+  4 | Mar_16h10  | M.Reynier       | Maths
+  4 | Jeu_17h20  | M.Gruat         | Phys
+  5 | Lun_11h10  | M.Dunand        | Maths
+  5 | Mer_12h10  | M.Gruat         | Phys
+  6 | Lun_9h00   | M.Lellouche     | Maths
+  6 | Jeu_18h20  | M.Bedes         | Phys
+  7 | Mar_16h20  | M.Lellouche     | Maths
+  7 | Jeu_17h20  | M.Bedes         | Phys
+  8 | Jeu_18h20  | M.Perrin        | Maths
+  8 | Mar_13h10  | Mme.Boglio      | Angl
+  9 | Jeu_13h10  | M.Boulmezaoud   | Maths
+  9 | Mar_17h10  | Mme.Mulheim     | Angl
+ 10 | Mar_16h10  | Mme.Mulheim     | Angl
+ 10 | Mer_12h10  | M.Bernanose     | Maths
+ 11 | Lun_18h20  | M.Vitetta       | Maths
+ 11 | Mar_15h10  | Mme.Mulheim     | Angl
+ 12 | Mer_13h10  | M.Duhalde       | Maths
+ 12 | Lun_12h10  | Mme.Boglio      | Angl
+ 13 | Mer_12h10  | M.Boulmezaoud   | Maths
+ 13 | Mar_15h20  | Mme.Bendrif     | Angl
+ 14 | Lun_18h20  | M.Levifve       | Maths
+ 14 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+ 15 | Mar_15h10  | M.Avigdor       | Maths
+ 15 | Mar_13h10  | Mme.Bendrif     | Angl
+OK.
+Semaine 15... 
+=== SEMAINE 15 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Mar_16h20  | M.Lellouche     | Maths
+  0 | Mar_13h10  | Mme.Boglio      | Angl
+  1 | Mar_15h10  | M.Avigdor       | Maths
+  1 | Mar_13h10  | Mme.Bendrif     | Angl
+  2 | Mar_15h10  | Mme.Mulheim     | Angl
+  2 | Mer_12h10  | M.Boulmezaoud   | Maths
+  3 | Lun_17h20  | M.Levifve       | Maths
+  3 | Mar_16h10  | Mme.Mulheim     | Angl
+  4 | Lun_11h10  | M.Dunand        | Maths
+  4 | Lun_12h10  | Mme.Boglio      | Angl
+  5 | Mer_12h10  | M.Bernanose     | Maths
+  5 | Mar_15h20  | Mme.Bendrif     | Angl
+  6 | Mer_13h10  | M.Duhalde       | Maths
+  6 | Mar_17h10  | Mme.Mulheim     | Angl
+  7 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+  7 | Jeu_18h20  | M.Perrin        | Maths
+  8 | Mar_16h10  | M.Avigdor       | Maths
+  8 | Jeu_18h20  | M.Sautel        | Phys
+  9 | Mar_16h10  | M.Reynier       | Maths
+  9 | Jeu_17h20  | M.Bedes         | Phys
+ 10 | Lun_17h20  | M.Vitetta       | Maths
+ 10 | Mer_13h10  | M.Gruat         | Phys
+ 11 | Jeu_17h20  | M.Perrin        | Maths
+ 11 | Mar_18h00  | M.Metzdorff     | Phys
+ 12 | Lun_9h00   | M.Lellouche     | Maths
+ 12 | Mer_12h10  | M.Metzdorff     | Phys
+ 13 | Lun_18h20  | M.Vitetta       | Maths
+ 13 | Jeu_18h20  | M.Bedes         | Phys
+ 14 | Jeu_13h10  | M.Boulmezaoud   | Maths
+ 14 | Jeu_17h20  | M.Gruat         | Phys
+ 15 | Lun_18h20  | M.Levifve       | Maths
+ 15 | Mer_12h10  | M.Gruat         | Phys
+OK.
+Semaine 16... 
+=== SEMAINE 16 ===
+Grp | Créneau   | Professeur      | Matière
+--------------------------------------------
+  0 | Mer_12h10  | M.Boulmezaoud   | Maths
+  0 | Jeu_17h20  | M.Gruat         | Phys
+  1 | Lun_17h20  | M.Vitetta       | Maths
+  1 | Jeu_17h20  | M.Bedes         | Phys
+  2 | Lun_11h10  | M.Dunand        | Maths
+  2 | Mer_13h10  | M.Gruat         | Phys
+  3 | Mar_15h10  | M.Avigdor       | Maths
+  3 | Mer_12h10  | M.Gruat         | Phys
+  4 | Mar_16h10  | M.Reynier       | Maths
+  4 | Jeu_18h20  | M.Sautel        | Phys
+  5 | Lun_18h20  | M.Vitetta       | Maths
+  5 | Mar_18h00  | M.Metzdorff     | Phys
+  6 | Lun_17h20  | M.Levifve       | Maths
+  6 | Jeu_18h20  | M.Bedes         | Phys
+  7 | Mer_12h10  | M.Metzdorff     | Phys
+  7 | Mer_13h10  | M.Duhalde       | Maths
+  8 | Mar_16h20  | M.Lellouche     | Maths
+  8 | Mar_15h20  | Mme.Bendrif     | Angl
+  9 | Mer_12h10  | M.Bernanose     | Maths
+  9 | Mar_13h10  | Mme.Bendrif     | Angl
+ 10 | Jeu_13h10  | M.Boulmezaoud   | Maths
+ 10 | Mar_17h10  | Mme.Mulheim     | Angl
+ 11 | Mar_16h10  | M.Avigdor       | Maths
+ 11 | Mar_13h10  | Mme.Boglio      | Angl
+ 12 | Mar_15h10  | Mme.Mulheim     | Angl
+ 12 | Jeu_18h20  | M.Perrin        | Maths
+ 13 | Jeu_17h20  | M.Perrin        | Maths
+ 13 | Lun_12h10  | Mme.Boglio      | Angl
+ 14 | Lun_18h20  | M.Levifve       | Maths
+ 14 | Mar_15h10  | Mme.Foliard-Pioche | Angl
+ 15 | Lun_9h00   | M.Lellouche     | Maths
+ 15 | Mar_16h10  | Mme.Mulheim     | Angl
+OK.
