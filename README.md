@@ -11,7 +11,7 @@
 ## 🇫🇷 Manuel d'Utilisation
 
 ### 1. Préparation du fichier d'entrée
-Avant de lancer le logiciel, vous devez disposer d'un fichier **Excel (enregistré en .csv)** contenant les disponibilités des colleurs.
+Avant de lancer le logiciel, vous devez disposer d'un fichier **Excel (enregistré en .csv)** contenant les disponibilités des colleurs. **Le nom du fichier doit être différent de : "'entree.csv'"**
 
 **Format attendu du fichier CSV :**
 Le fichier doit respecter une structure précise (séparateur virgule ou point-virgule) :
@@ -52,7 +52,7 @@ Le processus se déroule en 3 étapes simples :
 ## 🇬🇧 User Manual
 
 ### 1. Preparing the Input File
-Before running the software, you need an **Excel file (saved as .csv)** containing the professors' availability slots.
+Before running the software, you need an **Excel file (saved as .csv)** containing the professors' availability slots. **The name of the file must be different than "'entree.csv'"**
 
 **Expected CSV Format:**
 The file must follow a specific structure (comma or semicolon separated):
