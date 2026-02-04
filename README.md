@@ -22,7 +22,7 @@ Le fichier doit respecter une structure précise (séparateur virgule ou point-v
 > **Note :** Assurez-vous qu'il n'y a pas de cellules fusionnées ou de mise en forme complexe. Sauvegardez bien en format **CSV (UTF-8)**.
 
 ### 2. Lancer l'application
-1.  Double-cliquez sur l'exécutable **`interface_moderne.exe`** (ou le fichier application fourni).
+1.  Double-cliquez sur l'exécutable **`app.exe`** (ou le fichier application fourni).
 2.  Une fenêtre noire/bleue s'ouvre.
 
 ### 3. Générer le Colloscope
@@ -63,7 +63,7 @@ The file must follow a specific structure (comma or semicolon separated):
 > **Note:** Ensure there are no merged cells or complex formatting. Save as **CSV (UTF-8)**.
 
 ### 2. Launching the App
-1.  Double-click the **`interface_moderne.exe`** executable (or the provided application file).
+1.  Double-click the **`app.exe`** executable (or the provided application file).
 2.  The main window will open.
 
 ### 3. Generating the Schedule
