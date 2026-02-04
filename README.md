@@ -20,7 +20,36 @@ Le fichier doit respecter une structure précise (séparateur virgule ou point-v
 * Colonne 3 : **Matière** (ex: "Maths", "Physique", "Anglais")
 
 > **Note :** Assurez-vous qu'il n'y a pas de cellules fusionnées ou de mise en forme complexe. Sauvegardez bien en format **CSV (UTF-8)**.
+### 1.5 Commandes bash
+## 👨‍💻 Command Lines for Developers / Lignes de Commande
 
+Si vous modifiez le code source, voici les commandes pour régénérer l'application.
+
+
+### 👉 Windows
+
+```bash
+# 1. (Optionnel) Nettoyage des anciens builds
+rmdir /s /q build dist
+del *.spec
+
+# 2. Compilation du moteur OCaml
+ocamlfind ocamlopt -o colloscope -linkpkg -package csv,unix Properly_sat.ml input.ml output.ml final_input_version.ml
+
+# 3. Création de l'exécutable final
+pyinstaller --noconsole --onefile --add-data "colloscope.exe;." --collect-all customtkinter app.py
+```
+### 👉 Linux/MacOS
+```bash
+# 1. (Optionnel) Nettoyage des anciens builds
+rm -rf build/ dist/ *.spec
+
+# 2. Compilation du moteur OCaml
+ocamlfind ocamlopt -o colloscope -linkpkg -package csv,unix Properly_sat.ml input.ml output.ml final_input_version.ml
+
+# 3. Création de l'exécutable final
+pyinstaller --noconsole --onefile --add-data "colloscope:." --collect-all customtkinter app.py
+```
 ### 2. Lancer l'application
 1.  Double-cliquez sur l'exécutable **`app.exe`** (ou le fichier application fourni).
 2.  Une fenêtre noire/bleue s'ouvre.
@@ -61,6 +90,32 @@ The file must follow a specific structure (comma or semicolon separated):
 * Column 3: **Subject** (e.g., "Maths", "Physics", "English")
 
 > **Note:** Ensure there are no merged cells or complex formatting. Save as **CSV (UTF-8)**.
+### 1.5 Bash commands
+*If you modify the source code, run these commands to rebuild the app.*
+### 👉 Windows
+
+```bash
+# 1. (Optional) Clean old builds
+rmdir /s /q build dist
+del *.spec
+
+# 2. Compile OCaml Engine
+ocamlfind ocamlopt -o colloscope -linkpkg -package csv,unix Properly_sat.ml input.ml output.ml final_input_version.ml
+
+# 3. Build Final App
+pyinstaller --noconsole --onefile --add-data "colloscope.exe;." --collect-all customtkinter app.py
+```
+### 👉 Linux/MacOS
+```bash
+# 1. (Optional) Clean old builds
+rm -rf build/ dist/ *.spec
+
+# 2. Compile OCaml Engine
+ocamlfind ocamlopt -o colloscope -linkpkg -package csv,unix Properly_sat.ml input.ml output.ml final_input_version.ml
+
+# 3. Build Final App (Note the ':' separator instead of ';')
+pyinstaller --noconsole --onefile --add-data "colloscope:." --collect-all customtkinter app.py
+```
 
 ### 2. Launching the App
 1.  Double-click the **`app.exe`** executable (or the provided application file).
