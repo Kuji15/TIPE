@@ -37,7 +37,7 @@ del *.spec
 ocamlfind ocamlopt -o colloscope -linkpkg -package csv,unix Properly_sat.ml input.ml output.ml final_input_version.ml
 
 # 3. Création de l'exécutable final
-pyinstaller --noconsole --onefile --add-data "colloscope.exe;." --collect-all customtkinter app.py
+pyinstaller --noconsole --onefile --add-data "colloscope.exe;." --collect-all customtkinter colloscope_generator.py
 ```
 ### 👉 Linux/MacOS
 ```bash
@@ -48,10 +48,10 @@ rm -rf build/ dist/ *.spec
 ocamlfind ocamlopt -o colloscope -linkpkg -package csv,unix Properly_sat.ml input.ml output.ml final_input_version.ml
 
 # 3. Création de l'exécutable final
-pyinstaller --noconsole --onefile --add-data "colloscope:." --collect-all customtkinter app.py
+pyinstaller --noconsole --onefile --add-data "colloscope:." --collect-all customtkinter colloscope_generator.py
 ```
 ### 2. Lancer l'application
-1.  Double-cliquez sur l'exécutable **`app.exe`** (ou le fichier application fourni).
+1.  Double-cliquez sur l'exécutable **`colloscope_generator.exe`** (ou le fichier application fourni).
 2.  Une fenêtre noire/bleue s'ouvre.
 
 ### 3. Générer le Colloscope
@@ -103,7 +103,7 @@ del *.spec
 ocamlfind ocamlopt -o colloscope -linkpkg -package csv,unix Properly_sat.ml input.ml output.ml final_input_version.ml
 
 # 3. Build Final App
-pyinstaller --noconsole --onefile --add-data "colloscope.exe;." --collect-all customtkinter app.py
+pyinstaller --noconsole --onefile --add-data "colloscope.exe;." --collect-all customtkinter colloscope_generator.py
 ```
 ### 👉 Linux/MacOS
 ```bash
@@ -114,11 +114,11 @@ rm -rf build/ dist/ *.spec
 ocamlfind ocamlopt -o colloscope -linkpkg -package csv,unix Properly_sat.ml input.ml output.ml final_input_version.ml
 
 # 3. Build Final App (Note the ':' separator instead of ';')
-pyinstaller --noconsole --onefile --add-data "colloscope:." --collect-all customtkinter app.py
+pyinstaller --noconsole --onefile --add-data "colloscope:." --collect-all customtkinter colloscope_generator.py
 ```
 
 ### 2. Launching the App
-1.  Double-click the **`app.exe`** executable (or the provided application file).
+1.  Double-click the **`colloscope_generator.exe`** executable (or the provided application file).
 2.  The main window will open.
 
 ### 3. Generating the Schedule
